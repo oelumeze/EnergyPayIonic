@@ -1,0 +1,54 @@
+<ion-side-menus class="">
+<ion-side-menu-content class="menu-background">
+		<ion-nav-bar class="bar-light">
+				<ion-nav-back-button></ion-nav-back-button>
+				<ion-nav-buttons side="left">
+					<button menu-toggle="left" class ="button button-clear button-calm ion-navicon button-custom"></button>
+				</ion-nav-buttons>
+
+				<ion-nav-buttons side="right">
+					<button class="button button-clear button-calm ion-power button-custom" ></button>
+				</ion-nav-buttons>				
+					
+		</ion-nav-bar>
+	<ion-nav-view name="dashboard-page"></ion-nav-view>
+</ion-side-menu-content>
+	
+	<ion-side-menu class="MenuBg">
+	<div class="loginbg"></div>
+			<ion-header-bar class="bar-light">
+				
+			</ion-header-bar>
+			<ion-content>
+					<ion-list id="menuLinks">
+
+						<ion-item menu-close href="#/menu/dashboard" class = "item-icon-left">
+						<i class = "icon ion-clipboard"></i>
+									<span class="text-option ">Dashboard</span>
+						</ion-item>
+
+						<ion-item menu-close href="#/menu/payment" class = "item-icon-left">
+						<i class = "icon ion-card"></i>
+									<span class="text-option ">Pay Bill</span>
+						</ion-item>
+
+						<ion-item menu-close href="#/menu/payhistory" class = "item-icon-left">
+						<i class = "icon ion-bag "></i>
+							<span class="text-option">Payment History</span>
+						</ion-item>
+
+							<ion-item menu-close href="#/menu/complaint" class = "item-icon-left">
+							<i class = "icon ion-help"></i>
+								<span class="text-option">Complaints</span>
+						</ion-item>
+
+							<ion-item menu-close href="#" class = "item-icon-left">
+							<i class = "icon ion-gear-b"></i>
+								<span class="text-option">User Settings</span>
+						</ion-item>
+
+
+					</ion-list>
+		</ion-content>
+	</ion-side-menu>
+</ion-side-menus>

@@ -1,0 +1,56 @@
+<ion-view hide-nav-bar="true">
+<ion-content class ="splash padding">
+<br><br>
+<form name= "LoginForm" ng-controller="myCtrlSignUp" novalidate>
+<ion-list class="list-inset  removePM">
+  <label class = "item item-input">
+
+    <input type="email" name= "lemail" ng-model="lemail" placeholder="Email Address" required>
+  </label>
+
+
+   <label class="item item-input">
+    <input type="password" name="lpass" ng-model="lpass" placeholder="Password" required>
+  </label>
+
+  <button class="button button-block button-calm  ion-unlocked padding" type="submit" ng-click = "onLogin()">Login</button>
+</ion-list>
+</form>
+ 
+</ion-content>
+</ion-view>
+  <!--  <ion-list>
+    <label class = "item item-input">
+      <input type="text" placeholder="Enter Your First Name">
+    </label>
+
+    <label class = "item item-input">
+      <input type="text" placeholder="Enter Your Last Name">
+    </label>
+
+    <label class = "item item-input">
+      <input type="text" placeholder="Enter Your Email Address">
+    </label>
+
+    <label class="item item-input">
+      <textarea placeholder ="Enter your Address Here"></textarea>
+    </label>-->
+
+
+    <!--<ion-item class = "item-icon-left item-icon-right" href = "#">
+    <i class="icon  ion-email"></i>
+        Hello 1
+        <i class="icon ion-star"></i>
+    </ion-item>
+
+    <ion-item class="item-icon-left" href = "#">
+    <i class="icon ion-home"></i>
+    Hello 2
+    <span class="item-note">
+      Note
+    </span>
+  </ion-item>
+
+    <ion-item href = "#">
+    Hello 3
+  </ion-item>-->

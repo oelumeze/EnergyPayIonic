@@ -1,0 +1,77 @@
+<ion-view view-title="Pay Bill" class = "h1-title">
+<div class="loginbg"></div>
+  <ion-content class="content">
+ 	<form name = "PayBill" ng-controller="myCtrlSignUp" novalidate>
+ 	<div class="row responsive-sm">
+ 		<div class="col">
+ 			<!--<div class="app-logo"><img src="img/credit_card_top.png"></div>-->
+ 		
+ 			<div class="list">
+ 				<div class ="item item-divider">
+ 					Customer Information
+ 				</div>
+ 				<label class="item item-input">
+				  <span class="input-label">Meter Number</span>
+				  <input type="text">
+				</label>
+
+ 				<label class="item item-input">
+				  <span class="input-label">Amount(#)</span>
+				  <input type="text">
+				</label>
+
+ 				<label class="item item-input">
+				  <span class="input-label">Add Memo</span>
+				  <textarea name=""></textarea>
+				</label>
+
+ 				<label class="item item-input">
+				  <span class="input-label">Scheduled Date</span>
+				  <input type="date">
+				</label>
+
+				<div class ="item item-divider">
+ 					Card Information
+ 				</div>
+
+				<label class="item item-input item-select">
+				    <div class="input-label">
+				      Payment Method
+				    </div>
+				    <select>
+				      <option>Debit Card</option>
+				      <option selected>Credit Card</option>
+				    </select>
+				  </label>
+
+				  <label class="item item-input item-select">
+				    <div class="input-label">
+				      Vendor
+				    </div>
+				    <select>
+				      <option>Master Card</option>
+				      <option selected>Visa</option>
+				      <option>Verve</option>
+				      <option>Etranzact</option>
+				    </select>
+				  </label>
+
+				  <label class="item item-input">
+				  	<span class="input-label">Card Number</span>
+				  	<input type="text">
+				  </label>
+
+				  <label class="item item-input">
+				  	<span class="input-label">Expiry Date</span>
+				  	<input type="month">
+				  </label>	
+ 			</div>
+ 		</div>
+ 	</div>
+  </ion-content>
+</ion-view>
+<div class="bar bar-footer bar-light">
+  <button class ="button button-clear button-calm">Cancel</button>
+  <button class ="button button-clear button-calm" onclick = "payBill()">Pay</button>
+
+</div>
